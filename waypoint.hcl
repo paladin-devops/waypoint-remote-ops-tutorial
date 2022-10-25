@@ -21,7 +21,7 @@ project = "nodejs-example"
 
 app "nodejs-example" {
   runner {
-    profile = "kubernetes-PRIMARY-CLUSTER-RUNNER"
+    profile = "kubernetes-SECONDARY-CLUSTER-RUNNER"
   }
 
   labels = {
